@@ -4,3 +4,6 @@ Implemented on the DE1 SoC, this project aims to design and implement an image p
 ## Tools Used
 - Modelsim Altera
 - Intel Quartus Prime
+
+## Architecture (Version 1)
+![Image Processing Pipeline Architecture](./Architecture.png)
