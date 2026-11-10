@@ -59,7 +59,7 @@ reg [10:0] h_cnt;
 reg [9:0]  v_cnt;
 wire cHD,cVD,cDEN,hori_valid,vert_valid;
 ///////
-always@(negedge vga_clk,posedge reset)
+  always@(posedge vga_clk,posedge reset)
 begin
   if (reset)
   begin
@@ -89,7 +89,7 @@ assign vert_valid = (v_cnt<(vert_line-vert_front)&& v_cnt>=vert_back)?1'b1:1'b0;
 
 assign cDEN = hori_valid && vert_valid;
 
-always@(negedge vga_clk)
+  always@(posedge vga_clk)
 begin
   HS<=cHD;
   VS<=cVD;
