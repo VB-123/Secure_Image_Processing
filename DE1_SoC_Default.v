@@ -564,7 +564,7 @@ module DE1_SoC_Default(
     cartoonizer #(
         .WIDTH(640),
         .HEIGHT(480),
-        .EDGE_THRESHOLD(32)
+		.EDGE_THRESHOLD(36)
     ) cartoon (
         .en(OPCODE == 2'b11),
         .clk(CLK),
