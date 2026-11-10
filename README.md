@@ -5,9 +5,10 @@ Implemented on the DE1 SoC, this project aims to design and implement an image p
 - Modelsim Altera
 - Intel Quartus Prime
 
-## Architecture (Version 1)
+## Architecture (Version 1.2)
 ![Image Processing Pipeline Architecture](./Architecture.png)
-
+- Data Path is colour coded as Blue
+- Control Path is colour coded as Red
 ## Setting Up
 Method - 1:
 1. Download the files as a .zip file and unzip it on your local PC.
