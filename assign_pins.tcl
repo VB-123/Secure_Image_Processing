@@ -8,6 +8,7 @@
 # Clock and control inputs
 set_location_assignment PIN_AF14 -to ref_clk
 set_location_assignment PIN_AE12 -to RST
+set_location_assignment PIN_AE11 -to EN
 set_location_assignment PIN_AD10 -to {OPCODE[1]}
 set_location_assignment PIN_AC9  -to {OPCODE[0]}
 
