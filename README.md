@@ -129,7 +129,7 @@ run -all
 4. Launch the **Programmer Tool**, connect your DE1-SoC board via USB-Blaster, and upload the generated `.sof` bitstream file.
 5. Use the onboard slide switches to toggle `OPCODE` filter configurations and view encrypted video outputs live on a VGA monitor.
 
-6. Results
+## Results
 
 ### Output Images
 
