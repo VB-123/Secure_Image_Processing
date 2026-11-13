@@ -133,10 +133,17 @@ run -all
 
 ### Output Images
 
-   ![Bypass(00)](./bypass.jpeg)
+### Bypass(00)
+![Bypass](./bypass.jpeg)
 
-   ![Gray Scale(01)](./grayscale.jpeg)
+### Gray Scale(01)
+
+![Gray Scale](./grayscale.jpeg)
    
-   ![High Contrast(10)](./highcontrast.jpeg)
+### High Contrast(10)  
+
+![High Contrast](./highcontrast.jpeg)
    
-   ![Cartoon(11)](./cartoon.jpeg)
+### Cartoon(11)  
+
+![Cartoon](./cartoon.jpeg)
